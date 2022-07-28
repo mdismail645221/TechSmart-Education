@@ -11,6 +11,9 @@ body {
 }
 
 /* SLIDER AREA STYLES */
+.carousel-inner {
+    margin-top: 88px;
+}
 
 .coverOne {
     height: 70vh;
