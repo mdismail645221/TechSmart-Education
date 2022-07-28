@@ -14,11 +14,13 @@ body {
 
 .coverOne {
     height: 100vh;
-    object-fit: cover;
     background-image:
         linear-gradient(rgba(29,29,29,0.7), rgba(29, 29, 29, 0.7)),
         url(./assets/images/cover/cover-1.png);
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    backface-visibility: visible;
     background-blend-mode: darker;
 }
 
@@ -45,4 +47,6 @@ body {
 .eLearning-area .card{
     background-color: var(--bs-eLearningBg);
 }
+
+
 
