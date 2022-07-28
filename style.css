@@ -6,6 +6,9 @@ body {
     background-color: #fff;
     color: #000;
 }
+:root{
+    --bs-eLearningBg: #F4FAFD;
+}
 
 /* SLIDER AREA STYLES */
 
@@ -37,5 +40,9 @@ body {
         url(./assets/images/cover/cover-3.jpg);
     background-size: cover;
     background-blend-mode: darker;
+}
+/* E-LEARNING-AREA STYLES */
+.eLearning-area .card{
+    background-color: var(--bs-eLearningBg);
 }
 
