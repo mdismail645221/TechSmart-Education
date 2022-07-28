@@ -13,19 +13,18 @@ body {
 /* SLIDER AREA STYLES */
 
 .coverOne {
-    height: 100vh;
+    height: 70vh;
     background-image:
         linear-gradient(rgba(29,29,29,0.7), rgba(29, 29, 29, 0.7)),
         url(./assets/images/cover/cover-1.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    backface-visibility: visible;
     background-blend-mode: darker;
 }
 
 .coverTwo {
-    height: 100vh;
+    height: 70vh;
     object-fit: cover;
     background-image:
         linear-gradient(rgba(29, 29, 29, 0.7), rgba(29, 29, 29, 0.7)),
@@ -35,7 +34,7 @@ body {
 }
 
 .coverThree {
-    height: 100vh;
+    height: 70vh;
     object-fit: cover;
     background-image:
         linear-gradient(rgba(29, 29, 29, 0.7), rgba(29, 29, 29, 0.7)),
