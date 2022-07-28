@@ -1,0 +1,41 @@
+/* google fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff;
+    color: #000;
+}
+
+/* SLIDER AREA STYLES */
+
+.coverOne {
+    height: 100vh;
+    object-fit: cover;
+    background-image:
+        linear-gradient(rgba(29,29,29,0.7), rgba(29, 29, 29, 0.7)),
+        url(./assets/images/cover/cover-1.png);
+    background-size: cover;
+    background-blend-mode: darker;
+}
+
+.coverTwo {
+    height: 100vh;
+    object-fit: cover;
+    background-image:
+        linear-gradient(rgba(29, 29, 29, 0.7), rgba(29, 29, 29, 0.7)),
+        url(./assets/images/cover/cover-2.jpg);
+    background-size: cover;
+    background-blend-mode: darker;
+}
+
+.coverThree {
+    height: 100vh;
+    object-fit: cover;
+    background-image:
+        linear-gradient(rgba(29, 29, 29, 0.7), rgba(29, 29, 29, 0.7)),
+        url(./assets/images/cover/cover-3.jpg);
+    background-size: cover;
+    background-blend-mode: darker;
+}
+
